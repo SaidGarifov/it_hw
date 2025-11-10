@@ -25,7 +25,7 @@ public class BankAccount {
         balance += amount;
     }
     public void withdraw(double amount){
-        if(amount > balance) {
+        if(amount < balance) {
             balance -= amount;
         }
     }
@@ -36,3 +36,4 @@ public class BankAccount {
         isActive = false;
     }
 }
+
