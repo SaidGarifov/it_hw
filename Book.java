@@ -19,7 +19,7 @@ public class Book {
         this.year = year;
     }
     public String displayInfo(){
-        String x = "Название:"  + tittle +  "\n Автор: " + author + "\nГод издания:" + year + "\nНаличие: " + isAvaliable + "\nКоличество страниц: "  + pageCount;
+        String x = "Название:"  + tittle +  "\nАвтор: " + author + "\nГод издания:" + year + "\nНаличие: " + isAvaliable + "\nКоличество страниц: "  + pageCount;
         return x;
     }
     public void borrowBook(){
@@ -34,3 +34,4 @@ public class Book {
         }
     }
 }
+
